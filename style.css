@@ -44,7 +44,7 @@ nav ul li a:hover, a.active{
     gap: 70px;
     align-items: center;
 }
-.booking-form{
+.booking-form ,.congratulation-note{
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 25px;
@@ -64,6 +64,7 @@ nav ul li a:hover, a.active{
 }
 .inp-width{
     min-width: 300px;
+    text-align: center;
 }
 .plus-minus-btn{
     color: #3352F2;
@@ -125,4 +126,14 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+.congratulation{
+    display: none;
+}
+.congratulation-note{
+    margin-left: 30px;
+    color: seagreen;
+}
+.ticket{
+    
 }
